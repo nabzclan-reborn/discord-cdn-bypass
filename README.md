@@ -7,15 +7,15 @@ This API allows users to bypass Discord CDN URLs, download the file to the serve
 
 ### Bypass Discord CDN URL
 **Endpoint:**  
-`GET https://cdn.nabzclan.vip/public/discord-cdn-bypass/`
+`https://cdn.nabzclan.vip/public/discord-cdn-bypass/`
 
 **Description:**  
 This endpoint accepts a Discord CDN URL, downloads the file, saves it to the server, and returns a file URL. The file will be automatically deleted after 5 minutes.
 
 **Request:**
 
-```http
-GET https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=<discord_cdn_url>
+```text
+ https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=<discord_cdn_url>
 ```
 
 **Parameters:**
@@ -26,8 +26,8 @@ GET https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=<discord_cdn_url>
 
 **Example Request:**
 
-```http
-GET https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=https://cdn.discordapp.com/attachments/1234567890123456/file.png
+```text
+  https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=https://media.discordapp.net/attachments/1148078060407640084/1284251990146154542/IMG_0739.jpg
 ```
 
 ### Response:
@@ -93,7 +93,7 @@ The downloaded file will be automatically deleted from the server **5 minutes** 
 **Example API Call:**
 
 ```bash
-curl "https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=https://cdn.discordapp.com/attachments/1234567890123456/file.png"
+curl "https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=https://media.discordapp.net/attachments/1148078060407640084/1284251990146154542/IMG_0739.jpg"
 ```
 
 **Example JSON Response:**
