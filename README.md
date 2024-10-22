@@ -1,5 +1,5 @@
 
-# Discord CDN Bypass and File Download API
+# Discord CDN Bypass API
 
 This API allows users to bypass Discord CDN URLs, download the file to the server, and return the file URL for access. Files are automatically deleted 5 minutes after being saved.
 
