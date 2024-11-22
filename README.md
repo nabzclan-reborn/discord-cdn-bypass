@@ -3,6 +3,11 @@
 
 This API allows users to bypass Discord CDN URLs, download the file to the server, and return the file URL for access. Files are automatically deleted 5 minutes after being saved.
 
+## 📖 API Status
+
+![Status Badge](https://uptime.nabzclan.vip/api/badge/5/status?style=plastic)
+
+
 ## Endpoints
 
 ### Bypass Discord CDN URL
