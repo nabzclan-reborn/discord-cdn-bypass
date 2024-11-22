@@ -5,8 +5,9 @@ This API allows users to bypass Discord CDN URLs, download the file to the serve
 
 ## 📖 API Status
 
-![Status Badge](https://uptime.nabzclan.vip/api/badge/5/status?style=plastic)
+[Visit Status Page](https://uptime.nabzclan.vip/status/public-apis)
 
+![Status Badge](https://uptime.nabzclan.vip/api/badge/5/status?style=plastic)
 
 ## Endpoints
 
