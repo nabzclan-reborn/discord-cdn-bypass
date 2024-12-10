@@ -12,6 +12,11 @@ We’ve moved this endpoint to a new subdomain. Please update your applications 
 
 [https://public-apis.nabzclan.vip/hc/articles/1/2/3/discord-cdn-bypasser](https://public-apis.nabzclan.vip/hc/articles/1/2/3/discord-cdn-bypasser)
 
+## 👨‍💻 API Token (NEW)
+
+[https://developer.nabzclan.vip/](https://developer.nabzclan.vip/)
+
+
 ## 📖 API Status
 
 [Visit Status Page](https://uptime.nabzclan.vip/status/public-apis)
