@@ -14,7 +14,7 @@ We’ve moved this endpoint to a new subdomain. Please update your applications 
 
 ## 👨‍💻 API Token (NEW)
 
-[https://developer.nabzclan.vip/](https://developer.nabzclan.vip/)
+[https://public-apis.nabzclan.vip/hc/articles/1/2/3/discord-cdn-bypasser#api-token](https://public-apis.nabzclan.vip/hc/articles/1/2/3/discord-cdn-bypasser#api-token)
 
 
 ## 📖 API Status
