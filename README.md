@@ -3,6 +3,15 @@
 
 This API allows users to bypass Discord CDN URLs, download the file to the server, and return the file URL for access. Files are automatically deleted 5 minutes after being saved.
 
+
+## ⚠️ Warning
+
+We’ve moved this endpoint to a new subdomain. Please update your applications to use the current endpoint.
+
+## 📝 Docs (NEW)
+
+[https://public-apis.nabzclan.vip/hc/articles/1/2/3/discord-cdn-bypasser](https://public-apis.nabzclan.vip/hc/articles/1/2/3/discord-cdn-bypasser)
+
 ## 📖 API Status
 
 [Visit Status Page](https://uptime.nabzclan.vip/status/public-apis)
@@ -13,7 +22,7 @@ This API allows users to bypass Discord CDN URLs, download the file to the serve
 
 ### Bypass Discord CDN URL
 **Endpoint:**  
-`https://cdn.nabzclan.vip/public/discord-cdn-bypass/`
+`https://public-api.nabzclan.vip/v1/discord-cdn-bypass/`
 
 **Description:**  
 This endpoint accepts a Discord CDN URL, downloads the file, saves it to the server, and returns a file URL. The file will be automatically deleted after 5 minutes.
@@ -21,7 +30,7 @@ This endpoint accepts a Discord CDN URL, downloads the file, saves it to the ser
 **Request:**
 
 ```text
- https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=<discord_cdn_url>
+ https://public-api.nabzclan.vip/v1/discord-cdn-bypass/?apitoken=apitokenhere&url=<discord_cdn_url>
 ```
 
 **Parameters:**
@@ -33,7 +42,7 @@ This endpoint accepts a Discord CDN URL, downloads the file, saves it to the ser
 **Example Request:**
 
 ```text
-  https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=https://media.discordapp.net/attachments/1148078060407640084/1284251990146154542/IMG_0739.jpg
+  https://public-api.nabzclan.vip/v1/discord-cdn-bypass/?apitoken=apitokenhere&url=https://media.discordapp.net/attachments/1148078060407640084/1284251990146154542/IMG_0739.jpg
 ```
 
 ### Response:
@@ -46,7 +55,7 @@ The API returns a JSON response with the `file_url` and expiration time.
 {
     "success": true,
     "message": "File successfully downloaded and saved.",
-    "file_url": "https://cdn.nabzclan.vip/public/discord-cdn-bypass/uploads/unique_folder/file.png",
+    "file_url": "https://public-api.nabzclan.vip/v1/discord-cdn-bypass/uploads/unique_folder/file.png",
     "expires_in": "5 minutes"
 }
 ```
@@ -99,7 +108,7 @@ The downloaded file will be automatically deleted from the server **5 minutes** 
 **Example API Call:**
 
 ```bash
-curl "https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=https://media.discordapp.net/attachments/1148078060407640084/1284251990146154542/IMG_0739.jpg"
+curl "https://public-api.nabzclan.vip/v1/discord-cdn-bypass/?apitoken=apitokenhere&url=https://media.discordapp.net/attachments/1148078060407640084/1284251990146154542/IMG_0739.jpg"
 ```
 
 **Example JSON Response:**
@@ -108,7 +117,7 @@ curl "https://cdn.nabzclan.vip/public/discord-cdn-bypass/?url=https://media.disc
 {
     "success": true,
     "message": "File successfully downloaded and saved.",
-    "file_url": "https://cdn.nabzclan.vip/public/discord-cdn-bypass/uploads/unique_folder/file.png",
+    "file_url": "https://public-api.nabzclan.vip/v1/discord-cdn-bypass/uploads/unique_folder/file.png",
     "expires_in": "5 minutes"
 }
 ```
